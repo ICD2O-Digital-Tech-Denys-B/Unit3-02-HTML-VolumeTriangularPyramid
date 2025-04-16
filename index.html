@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Pyramid</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+    <body>
+      <h1>Right Triangle Pyramid Volume Calculator</h1>
+      <p>Enter side a in cm</p>
+      <input value="" placeholder="a" type="text" id="side-b">
+      <p>Enter side b in cm</p>
+      <input value="" placeholder="b" type="text" id="side-a">
+      <p>Enter height in cm</p>
+      <input value="" placeholder="h" type="text" id="height">
+      <br>
+      <button onclick="calcVol()">Enter</button>
+      <div id="answer"></div>
+      <br>
+      <img src="images/prmd.png">
+    </body>
 </html>

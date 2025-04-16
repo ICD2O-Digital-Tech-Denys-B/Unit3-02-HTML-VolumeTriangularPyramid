@@ -2,3 +2,8 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+* {
+    color: rgb(218, 159, 32);
+    background-color: darkslateblue;
+    text-align: center;
+}
